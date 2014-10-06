@@ -124,7 +124,7 @@ namespace VSOTeams.VSOTeams_Windows_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[22];
+            _typeNameTable = new string[28];
             _typeNameTable[0] = "VSOTeams.ViewModel.ViewModelLocator";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "VSOTeams.ViewModel.ProjectViewModel";
@@ -146,9 +146,15 @@ namespace VSOTeams.VSOTeams_Windows_XamlTypeInfo
             _typeNameTable[18] = "Windows.UI.Xaml.Controls.SettingsFlyout";
             _typeNameTable[19] = "Windows.UI.Xaml.Controls.ContentControl";
             _typeNameTable[20] = "VSOTeams.TeamHubPage";
-            _typeNameTable[21] = "VSOTeams.UserDetailsHubPage";
+            _typeNameTable[21] = "VSOTeams.TeamRoomHubPage";
+            _typeNameTable[22] = "VSOTeams.Common.ObservableDictionary";
+            _typeNameTable[23] = "String";
+            _typeNameTable[24] = "VSOTeams.Common.NavigationHelper";
+            _typeNameTable[25] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[26] = "VSOTeams.TeamRoomsHubPage";
+            _typeNameTable[27] = "VSOTeams.UserDetailsHubPage";
 
-            _typeTable = new global::System.Type[22];
+            _typeTable = new global::System.Type[28];
             _typeTable[0] = typeof(global::VSOTeams.ViewModel.ViewModelLocator);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::VSOTeams.ViewModel.ProjectViewModel);
@@ -170,7 +176,13 @@ namespace VSOTeams.VSOTeams_Windows_XamlTypeInfo
             _typeTable[18] = typeof(global::Windows.UI.Xaml.Controls.SettingsFlyout);
             _typeTable[19] = typeof(global::Windows.UI.Xaml.Controls.ContentControl);
             _typeTable[20] = typeof(global::VSOTeams.TeamHubPage);
-            _typeTable[21] = typeof(global::VSOTeams.UserDetailsHubPage);
+            _typeTable[21] = typeof(global::VSOTeams.TeamRoomHubPage);
+            _typeTable[22] = typeof(global::VSOTeams.Common.ObservableDictionary);
+            _typeTable[23] = typeof(global::System.String);
+            _typeTable[24] = typeof(global::VSOTeams.Common.NavigationHelper);
+            _typeTable[25] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[26] = typeof(global::VSOTeams.TeamRoomsHubPage);
+            _typeTable[27] = typeof(global::VSOTeams.UserDetailsHubPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -215,7 +227,17 @@ namespace VSOTeams.VSOTeams_Windows_XamlTypeInfo
         private object Activate_16_ProjectHubPage() { return new global::VSOTeams.ProjectHubPage(); }
         private object Activate_17_CredentialSettingsFlyOut() { return new global::VSOTeams.Settings.CredentialSettingsFlyOut(); }
         private object Activate_20_TeamHubPage() { return new global::VSOTeams.TeamHubPage(); }
-        private object Activate_21_UserDetailsHubPage() { return new global::VSOTeams.UserDetailsHubPage(); }
+        private object Activate_21_TeamRoomHubPage() { return new global::VSOTeams.TeamRoomHubPage(); }
+        private object Activate_22_ObservableDictionary() { return new global::VSOTeams.Common.ObservableDictionary(); }
+        private object Activate_26_TeamRoomsHubPage() { return new global::VSOTeams.TeamRoomsHubPage(); }
+        private object Activate_27_UserDetailsHubPage() { return new global::VSOTeams.UserDetailsHubPage(); }
+        private void MapAdd_22_ObservableDictionary(object instance, object key, object item)
+        {
+            var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
+            var newKey = (global::System.String)key;
+            var newItem = (global::System.Object)item;
+            collection.Add(newKey, newItem);
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -361,9 +383,50 @@ namespace VSOTeams.VSOTeams_Windows_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 21:   //  VSOTeams.UserDetailsHubPage
+            case 21:   //  VSOTeams.TeamRoomHubPage
+                userType = new global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_21_TeamRoomHubPage;
+                userType.AddMemberName("DefaultViewModel");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 22:   //  VSOTeams.Common.ObservableDictionary
+                userType = new global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.DictionaryAdd = MapAdd_22_ObservableDictionary;
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 23:   //  String
+                xamlType = new global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 24:   //  VSOTeams.Common.NavigationHelper
+                userType = new global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 25:   //  Windows.UI.Xaml.DependencyObject
+                xamlType = new global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 26:   //  VSOTeams.TeamRoomsHubPage
+                userType = new global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_26_TeamRoomsHubPage;
+                userType.AddMemberName("DefaultViewModel");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 27:   //  VSOTeams.UserDetailsHubPage
                 userType = new global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("VSOTeams.ViewBase"));
-                userType.Activator = Activate_21_UserDetailsHubPage;
+                userType.Activator = Activate_27_UserDetailsHubPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -396,6 +459,26 @@ namespace VSOTeams.VSOTeams_Windows_XamlTypeInfo
         {
             var that = (global::VSOTeams.ViewModel.ViewModelLocator)instance;
             return that.AllUsersVM;
+        }
+        private object get_5_TeamRoomHubPage_DefaultViewModel(object instance)
+        {
+            var that = (global::VSOTeams.TeamRoomHubPage)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_6_TeamRoomHubPage_NavigationHelper(object instance)
+        {
+            var that = (global::VSOTeams.TeamRoomHubPage)instance;
+            return that.NavigationHelper;
+        }
+        private object get_7_TeamRoomsHubPage_DefaultViewModel(object instance)
+        {
+            var that = (global::VSOTeams.TeamRoomsHubPage)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_8_TeamRoomsHubPage_NavigationHelper(object instance)
+        {
+            var that = (global::VSOTeams.TeamRoomsHubPage)instance;
+            return that.NavigationHelper;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -433,6 +516,30 @@ namespace VSOTeams.VSOTeams_Windows_XamlTypeInfo
                 userType = (global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("VSOTeams.ViewModel.ViewModelLocator");
                 xamlMember = new global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlMember(this, "AllUsersVM", "VSOTeams.ViewModel.AllUsersViewModel");
                 xamlMember.Getter = get_4_ViewModelLocator_AllUsersVM;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "VSOTeams.TeamRoomHubPage.DefaultViewModel":
+                userType = (global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("VSOTeams.TeamRoomHubPage");
+                xamlMember = new global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "VSOTeams.Common.ObservableDictionary");
+                xamlMember.Getter = get_5_TeamRoomHubPage_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "VSOTeams.TeamRoomHubPage.NavigationHelper":
+                userType = (global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("VSOTeams.TeamRoomHubPage");
+                xamlMember = new global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "VSOTeams.Common.NavigationHelper");
+                xamlMember.Getter = get_6_TeamRoomHubPage_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "VSOTeams.TeamRoomsHubPage.DefaultViewModel":
+                userType = (global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("VSOTeams.TeamRoomsHubPage");
+                xamlMember = new global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "VSOTeams.Common.ObservableDictionary");
+                xamlMember.Getter = get_7_TeamRoomsHubPage_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "VSOTeams.TeamRoomsHubPage.NavigationHelper":
+                userType = (global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("VSOTeams.TeamRoomsHubPage");
+                xamlMember = new global::VSOTeams.VSOTeams_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "VSOTeams.Common.NavigationHelper");
+                xamlMember.Getter = get_8_TeamRoomsHubPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             }

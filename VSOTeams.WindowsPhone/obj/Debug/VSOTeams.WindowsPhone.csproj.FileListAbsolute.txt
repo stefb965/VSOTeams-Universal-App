@@ -182,3 +182,13 @@ C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\obj\Debug\
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\obj\Debug\GalaSoft.MvvmLight.Platform.pri.xml
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\obj\Debug\Microsoft.WindowsAzure.Messaging.Managed.pri.xml
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\obj\Debug\TeamRoomHubPage.g.i.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\obj\Debug\TeamRoomHubPage.g.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\obj\Debug\TeamRoomsHubPage.g.i.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\obj\Debug\TeamRoomsHubPage.g.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\obj\Debug\TeamRoomHubPage.xaml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\obj\Debug\TeamRoomsHubPage.xaml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\obj\Debug\TeamRoomHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\obj\Debug\TeamRoomsHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\bin\Debug\TeamRoomHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\bin\Debug\TeamRoomsHubPage.xbf

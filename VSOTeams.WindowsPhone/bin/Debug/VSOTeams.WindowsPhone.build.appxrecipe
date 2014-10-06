@@ -37,9 +37,33 @@
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\packages\Newtonsoft.Json.6.0.3\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\add.png">
+      <PackagePath>Assets\add.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\buildcompletedevent.png">
+      <PackagePath>Assets\buildcompletedevent.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\buildcompletedevent1.png">
+      <PackagePath>Assets\buildcompletedevent1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\checkinevent.png">
+      <PackagePath>Assets\checkinevent.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\checkinevent1.png">
+      <PackagePath>Assets\checkinevent1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\Failed.png">
+      <PackagePath>Assets\Failed.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\part.png">
+      <PackagePath>Assets\part.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\room.png">
+      <PackagePath>Assets\room.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
@@ -53,9 +77,15 @@
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\Stopped.png">
+      <PackagePath>Assets\Stopped.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\succes.png">
+      <PackagePath>Assets\succes.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
@@ -66,6 +96,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\HubBackground.theme-light.png">
       <PackagePath>Assets\HubBackground.theme-light.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\workitemchangedevent.PNG">
+      <PackagePath>Assets\workitemchangedevent.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\Assets\workitemchangedevent1.png">
+      <PackagePath>Assets\workitemchangedevent1.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Shared\Assets\MediumWhite.png">
       <PackagePath>Assets\MediumWhite.png</PackagePath>
@@ -102,6 +138,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\bin\Debug\TeamHubPage.xbf">
       <PackagePath>TeamHubPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\bin\Debug\TeamRoomHubPage.xbf">
+      <PackagePath>TeamRoomHubPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\bin\Debug\TeamRoomsHubPage.xbf">
+      <PackagePath>TeamRoomsHubPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.WindowsPhone\bin\Debug\UserDetailsHubPage.xbf">
       <PackagePath>UserDetailsHubPage.xbf</PackagePath>

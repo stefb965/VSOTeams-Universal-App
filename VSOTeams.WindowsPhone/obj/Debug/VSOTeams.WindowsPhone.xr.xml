@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Roots >
+<Roots xmlns="clr-namespace:Microsoft.Xaml.Tools.XamlCompiler.RootLog;assembly=Microsoft.Windows.UI.Xaml.81.Build.Tasks">
   <Roots.Interfaces>
     <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
   </Roots.Interfaces>
@@ -32,6 +32,7 @@
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
       <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Margin" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
@@ -51,6 +52,7 @@
       <RootProperty Name="Style" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Foreground" />
+      <RootProperty Name="CharacterSpacing" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Documents.Typography">
       <RootMethod Name="GetCapitals" />
@@ -117,6 +119,8 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
     </RootType>
+    <RootType FullName="VSOTeams.TeamRoomHubPage" />
+    <RootType FullName="VSOTeams.TeamRoomsHubPage" />
     <RootType FullName="VSOTeams.UserDetailsHubPage" />
   </Roots.RootTypes>
 </Roots>

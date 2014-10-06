@@ -130,6 +130,12 @@
     <Compile Include="TeamHubPage.xaml.cs">
       <DependentUpon>TeamHubPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TeamRoomHubPage.xaml.cs">
+      <DependentUpon>TeamRoomHubPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeamRoomsHubPage.xaml.cs">
+      <DependentUpon>TeamRoomsHubPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserDetailsHubPage.xaml.cs">
       <DependentUpon>UserDetailsHubPage.xaml</DependentUpon>
     </Compile>
@@ -183,6 +189,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TeamHubPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TeamRoomHubPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TeamRoomsHubPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

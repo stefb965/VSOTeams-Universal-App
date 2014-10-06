@@ -113,6 +113,12 @@
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\TeamHubPage.xbf">
       <PackagePath>TeamHubPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\TeamRoomHubPage.xbf">
+      <PackagePath>TeamRoomHubPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\TeamRoomsHubPage.xbf">
+      <PackagePath>TeamRoomsHubPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\UserDetailsHubPage.xbf">
       <PackagePath>UserDetailsHubPage.xbf</PackagePath>
     </AppxPackagedFile>

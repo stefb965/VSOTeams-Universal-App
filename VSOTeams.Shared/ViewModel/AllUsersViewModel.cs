@@ -40,12 +40,6 @@ namespace VSOTeams.ViewModel
             {
                 AllVSOUsers= await VSOUsersDataSource.GetAllVSOUsersAsync(false);
 
-                //List<BitmapImage> pictures = new List<BitmapImage>();
-                //foreach (var item in AllVSOUsers)
-                //{
-                //    pictures.Add(new BitmapImage(new Uri(item.ProfileImage.SafeLocation, UriKind.Absolute)));
-                //}
-
                 if (AllVSOUsers.Count == 0 )
                 {
                     LoadingText = "No Users found.";

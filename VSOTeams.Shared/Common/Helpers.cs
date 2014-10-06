@@ -74,5 +74,7 @@ namespace VSOTeams.Common
             return (connectionProfile != null && connectionProfile.GetNetworkConnectivityLevel() == NetworkConnectivityLevel.InternetAccess);
 
         }
+
+       
     }
 }
