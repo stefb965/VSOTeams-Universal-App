@@ -1,0 +1,108 @@
+﻿<local:ViewBase
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VSOTeams"
+    xmlns:common="using:VSOTeams.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Interactivity="using:Microsoft.Xaml.Interactivity" 
+    xmlns:Core="using:Microsoft.Xaml.Interactions.Core"
+    x:Name="pageRoot"
+    x:Class="VSOTeams.ProjectHubPage" 
+    mc:Ignorable="d"
+    DataContext="{Binding ProjectsVM, Source={StaticResource Locator}}"
+    >
+
+    <local:ViewBase.Resources>
+        <DataTemplate x:Key="ProjectTemplate">
+            <Grid HorizontalAlignment="Left" Width="250" Height="250">
+                <Border Background="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}">
+                    <Image Source="Assets/bg.png" Stretch="Fill" />
+                </Border>
+                <StackPanel VerticalAlignment="Bottom" Background="{ThemeResource ListViewItemOverlayBackgroundThemeBrush}">
+                    <TextBlock Text="{Binding name}" Foreground="{ThemeResource ListViewItemOverlayForegroundThemeBrush}" Style="{StaticResource TitleTextBlockStyle}" Height="60" Margin="15,0,15,0"/>
+                    <TextBlock Text="{Binding description}" Foreground="{ThemeResource ListViewItemOverlaySecondaryForegroundThemeBrush}" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="NoWrap" Margin="15,0,15,10"/>
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+    </local:ViewBase.Resources>
+    
+    <Grid Background="LightGray">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Hub>
+            <Hub.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="pageTitle" Text="My Projects" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        VerticalAlignment="Top" IsHitTestVisible="false" TextWrapping="NoWrap" Foreground="White" />
+                </Grid>
+            </Hub.Header>
+            <HubSection Width="480" x:Name="HubStart" 
+                DataContext="{Binding ProjectsVM, Source={StaticResource Locator}}" 
+                Background="{StaticResource ListViewItemPlaceholderBackgroundThemeBrush}">
+                <DataTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="1"  Width="370" Height="250" RenderTransformOrigin="0.486,0.303" Margin="0,20,0,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="80" />
+                                <RowDefinition Height="80" />
+                                <RowDefinition Height="80" />
+                                <RowDefinition Height="80" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="95"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <AppBarButton Icon="Refresh" Grid.Row="0" Grid.Column="0" Height="80" Width="86" x:Name="refresh" Label="" Command="{Binding RefeshProjectsCommand, Mode=OneWay}"/>
+                            <TextBlock Grid.Row="0"  Grid.Column="1" Margin="0,10,0,0" Text="Reload Projects" Style="{StaticResource SubheaderTextBlockStyle}"  />
+
+                            <AppBarButton Icon="People" Grid.Row="1" Grid.Column="0" Height="80" Width="86" x:Name="allVSOUsers" Label=""  Command="{Binding GotoAllUsersPageCommand, Mode=OneWay}" Visibility="{Binding IsLoadingUsers, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                            <TextBlock Grid.Row="1"  Grid.Column="1" Margin="0,10,0,0" Text="All VSO Users" Style="{StaticResource SubheaderTextBlockStyle}" Visibility="{Binding IsLoadingUsers, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+
+                            <TextBlock Grid.Row="2" Grid.Column="0"  Text="{Binding Projects.Count}" Style="{StaticResource SubheaderTextBlockStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock Grid.Row="2" Grid.Column="1"  Text="Projects"  Style="{StaticResource SubheaderTextBlockStyle}"   VerticalAlignment="Center"/>
+                        </Grid>
+
+                        <StackPanel Grid.Row="2">
+                            <ProgressBar x:Name="ProgressRingLoadingProjects"  IsIndeterminate="{Binding IsLoading}" Height="10" Width="480" Foreground="Red" Background="{x:Null}" Margin="-40,0,0,40" Canvas.ZIndex="1"/>
+                            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Text="{Binding LoadingText}" Foreground="Gray" TextWrapping="Wrap"/>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+            <HubSection x:Name="HubProjects" 
+                        DataContext="{Binding ProjectsVM, Source={StaticResource Locator}}"  >
+                <DataTemplate>
+                    <GridView
+                        x:Name="projectItemsListView"
+                        AutomationProperties.AutomationId="ProjectItemsListView"
+                        AutomationProperties.Name="Projects"
+                        SelectedItem="{Binding SelectedProject, Mode=TwoWay}"
+                        SelectionMode="Single"
+                        IsSwipeEnabled="False" 
+                        Margin="0,0,0,-45" 
+                        ItemsSource="{Binding Projects}" 
+                        ItemTemplate="{StaticResource ProjectTemplate}">
+                    </GridView>
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+    </Grid>
+</local:ViewBase>

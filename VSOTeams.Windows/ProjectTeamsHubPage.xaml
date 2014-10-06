@@ -1,0 +1,79 @@
+﻿<local:ViewBase
+    x:Name="pageRoot"
+    x:Class="VSOTeams.ProjectTeamsHubPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VSOTeams"
+    xmlns:data="using:VSOTeams.Data"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding ProjectTeamsVM, Source={StaticResource Locator}}"
+    >
+
+    <local:ViewBase.Resources>
+        <DataTemplate x:Key="TeamItemTemplate">
+            <Grid HorizontalAlignment="Left" Width="250" Height="250">
+                <Border Background="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}">
+                    <Image Source="Assets/bg.png" Stretch="Fill" />
+                </Border>
+                <StackPanel VerticalAlignment="Bottom" Background="{ThemeResource ListViewItemOverlayBackgroundThemeBrush}">
+                    <TextBlock Text="{Binding name}" Foreground="{ThemeResource ListViewItemOverlayForegroundThemeBrush}" Style="{StaticResource TitleTextBlockStyle}" Height="60" Margin="15,0,15,0"/>
+                    <TextBlock Text="{Binding description}" Foreground="{ThemeResource ListViewItemOverlaySecondaryForegroundThemeBrush}" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="NoWrap" Margin="15,0,15,10"/>
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+       
+    </local:ViewBase.Resources>
+
+    <Grid Background="LightGray">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Hub>
+            <Hub.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button  x:Name="backButton" Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        Margin="0,0,39,0" 
+                        VerticalAlignment="Top"
+                        Command="{Binding GoToMainPageCommand, Mode=OneWay}" 
+                        Visibility="Visible"/>
+                    <TextBlock x:Name="pageTitle" Text="{Binding ProjectName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Top"/>
+                </Grid>
+            </Hub.Header>
+            <HubSection Width="480" x:Name="HubStart" 
+				DataContext="{Binding ProjectsVM, Source={StaticResource Locator}}"
+                Background="{StaticResource ListViewItemPlaceholderBackgroundThemeBrush}">
+                <DataTemplate>
+                    <StackPanel Grid.Row="2">
+                        <ProgressBar x:Name="ProgressRingLoadingProjects"  IsIndeterminate="{Binding IsLoading}" Height="10" Width="480" Foreground="Red" Background="{x:Null}" Margin="-40,0,0,40" Canvas.ZIndex="1"/>
+                        <TextBlock Style="{StaticResource BodyTextBlockStyle}" Text="{Binding LoadingText}" Foreground="Gray" TextWrapping="Wrap"/>
+                    </StackPanel>
+                </DataTemplate>
+            </HubSection>
+            <HubSection x:Name="HubTeams" 
+                        DataContext="{Binding ProjectTeamsVM, Source={StaticResource Locator}}"  >
+                <DataTemplate>
+                    <GridView
+                        x:Name="projectItemsListView"
+                        AutomationProperties.AutomationId="ProjectItemsListView"
+                        AutomationProperties.Name="Projects"
+                        SelectedItem="{Binding SelectedTeam, Mode=TwoWay}"
+                        SelectionMode="Single"
+                        IsSwipeEnabled="False" 
+                        Margin="0,0,0,-45" 
+                        ItemsSource="{Binding ProjectTeams}" 
+                        ItemTemplate="{StaticResource TeamItemTemplate}">
+                    </GridView>
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+    </Grid>
+</local:ViewBase>

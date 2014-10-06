@@ -1,0 +1,168 @@
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\App.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\AllUsersHubPage.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\CustomDictionary.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\ProjectTeamsHubPage.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\ProjectHubPage.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\Settings\CredentialSettingsFlyOut.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\TeamHubPage.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\UserDetailsHubPage.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\VSOTeams.Store.xr.xml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\VSOTeams.Store.exe
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\VSOTeams.Store.pdb
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\resources.pri
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\AppxManifest.xml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\VSOTeams.Windows.build.appxrecipe
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\Microsoft.Xaml.Interactions.dll
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\Microsoft.Xaml.Interactivity.dll
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Extras.Win8.dll
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Win8.dll
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Extras.Win8.pdb
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Extras.Win8.xml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Extras.Win8.pri
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Win8.pdb
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Win8.xml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Win8.pri
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\Microsoft.Practices.ServiceLocation.pri
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\App.g.i.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\App.g.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\AllUsersHubPage.g.i.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\AllUsersHubPage.g.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\CustomDictionary.g.i.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\CustomDictionary.g.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectTeamsHubPage.g.i.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectTeamsHubPage.g.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectHubPage.g.i.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectHubPage.g.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\Settings\CredentialSettingsFlyOut.g.i.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\Settings\CredentialSettingsFlyOut.g.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\TeamHubPage.g.i.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\TeamHubPage.g.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\UserDetailsHubPage.g.i.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\UserDetailsHubPage.g.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\App.xaml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\AllUsersHubPage.xaml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\CustomDictionary.xaml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectTeamsHubPage.xaml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectHubPage.xaml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\Settings\CredentialSettingsFlyOut.xaml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\TeamHubPage.xaml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\UserDetailsHubPage.xaml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\App.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\AllUsersHubPage.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\CustomDictionary.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectTeamsHubPage.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectHubPage.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\Settings\CredentialSettingsFlyOut.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\TeamHubPage.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\UserDetailsHubPage.xbf
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\VSOTeams.Store.exe
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\VSOTeams.Store.pdb
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\VSOTeams.Windows.csproj.GenerateResource.Cache
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\priconfig.xml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\priconfig.xml.intermediate
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\layout.resfiles
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\layout.resfiles.intermediate
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\resources.resfiles
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\resources.resfiles.intermediate
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\pri.resfiles
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\pri.resfiles.intermediate
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\qualifiers.txt
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\GalaSoft.MvvmLight.Extras.Win8.pri.xml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\GalaSoft.MvvmLight.Win8.pri.xml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\Microsoft.Practices.ServiceLocation.pri.xml
+C:\Users\Clemens\Source\Workspaces\WIN8 VSO Teams\DEV\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\App.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\AllUsersHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\CustomDictionary.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\ProjectTeamsHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\ProjectHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\Settings\CredentialSettingsFlyOut.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\TeamHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\UserDetailsHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\VSOTeams.Store.xr.xml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\VSOTeams.Store.exe
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\VSOTeams.Store.pdb
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\resources.pri
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\AppxManifest.xml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\VSOTeams.Windows.build.appxrecipe
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\Microsoft.Xaml.Interactions.dll
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\Microsoft.Xaml.Interactivity.dll
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Extras.Win8.dll
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Win8.dll
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\Microsoft.WindowsAzure.Messaging.Managed.dll
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Extras.Win8.pdb
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Extras.Win8.xml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Extras.Win8.pri
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Win8.pdb
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Win8.xml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\GalaSoft.MvvmLight.Win8.pri
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\Microsoft.Practices.ServiceLocation.pri
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\Microsoft.WindowsAzure.Messaging.Managed.pri
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\App.g.i.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\App.g.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\AllUsersHubPage.g.i.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\AllUsersHubPage.g.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\CustomDictionary.g.i.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\CustomDictionary.g.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectTeamsHubPage.g.i.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectTeamsHubPage.g.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectHubPage.g.i.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectHubPage.g.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Settings\CredentialSettingsFlyOut.g.i.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Settings\CredentialSettingsFlyOut.g.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamHubPage.g.i.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamHubPage.g.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\UserDetailsHubPage.g.i.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\UserDetailsHubPage.g.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\App.xaml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\AllUsersHubPage.xaml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\CustomDictionary.xaml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectTeamsHubPage.xaml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectHubPage.xaml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Settings\CredentialSettingsFlyOut.xaml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamHubPage.xaml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\UserDetailsHubPage.xaml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\App.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\AllUsersHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\CustomDictionary.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectTeamsHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Settings\CredentialSettingsFlyOut.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\UserDetailsHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\VSOTeams.Store.exe
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\VSOTeams.Store.pdb
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\VSOTeams.Windows.csproj.GenerateResource.Cache
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\priconfig.xml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\priconfig.xml.intermediate
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\layout.resfiles
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\layout.resfiles.intermediate
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\resources.resfiles
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\resources.resfiles.intermediate
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\pri.resfiles
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\pri.resfiles.intermediate
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\qualifiers.txt
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\GalaSoft.MvvmLight.Extras.Win8.pri.xml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\GalaSoft.MvvmLight.Win8.pri.xml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Microsoft.Practices.ServiceLocation.pri.xml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Microsoft.WindowsAzure.Messaging.Managed.pri.xml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\VSOTeams.Windows.csprojResolveAssemblyReference.cache

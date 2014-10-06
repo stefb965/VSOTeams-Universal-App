@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CLEMENS3</Machine>
+    <WindowsUser>Clemens</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>65055ClemensReijnen.VSOTeams</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>5CDB04EAB822D16E485EAFB6739C3DA0B8692AE23A89D90920864D6B3AFCA718</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>65055ClemensReijnen.VSOTeams_1.1.0.0_neutral__qcw0nysycjwt8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>65055ClemensReijnen.VSOTeams_qcw0nysycjwt8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>65055ClemensReijnen.VSOTeams</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=83ACF7E7-27FB-43AF-B199-EA233DD2B7D0</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-05T19:03:49.723</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\VSOTeams.Store.exe">
+      <PackagePath>VSOTeams.Store.exe</PackagePath>
+      <Modified>2014-10-05T19:41:50.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2014-09-11T17:41:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2014-09-11T17:41:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\packages\MvvmLightLibs.4.3.31.1\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
+      <Modified>2014-09-30T07:46:18.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\packages\MvvmLightLibs.4.3.31.1\lib\netcore45\GalaSoft.MvvmLight.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
+      <Modified>2014-09-30T07:46:18.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\packages\MvvmLightLibs.4.3.31.1\lib\netcore45\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2014-09-30T07:46:18.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\packages\WindowsAzure.Messaging.Managed.0.1.7.9\lib\netcore45\Microsoft.WindowsAzure.Messaging.Managed.dll">
+      <PackagePath>Microsoft.WindowsAzure.Messaging.Managed.dll</PackagePath>
+      <Modified>2014-10-03T07:10:06.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\packages\Newtonsoft.Json.6.0.3\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2014-09-30T07:46:19.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\BernardSpitPolarBear_EN-US13003115552_1366x768.jpg">
+      <PackagePath>Assets\BernardSpitPolarBear_EN-US13003115552_1366x768.jpg</PackagePath>
+      <Modified>2014-09-30T07:32:56.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\bg.png">
+      <PackagePath>Assets\bg.png</PackagePath>
+      <Modified>2014-09-30T07:32:55.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\bg2.png">
+      <PackagePath>Assets\bg2.png</PackagePath>
+      <Modified>2014-10-01T18:45:02.703</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-30T07:32:55.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-30T07:32:55.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-30T07:32:55.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-30T07:32:55.507</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\Team_32xLG.png">
+      <PackagePath>Assets\Team_32xLG.png</PackagePath>
+      <Modified>2014-09-30T07:32:55.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <Modified>2014-09-30T07:32:55.507</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Shared\Assets\MediumWhite.png">
+      <PackagePath>Assets\MediumWhite.png</PackagePath>
+      <Modified>2014-09-30T07:32:52.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Shared\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2014-09-30T07:32:52.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Shared\Assets\Sogeti.PNG">
+      <PackagePath>Assets\Sogeti.PNG</PackagePath>
+      <Modified>2014-09-30T07:32:52.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Shared\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2014-09-30T07:32:52.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Shared\Assets\MediumSogeti.png">
+      <PackagePath>Assets\MediumSogeti.png</PackagePath>
+      <Modified>2014-09-30T07:32:52.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Shared\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2014-09-30T07:32:52.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\IC719387.gif">
+      <PackagePath>Assets\IC719387.gif</PackagePath>
+      <Modified>2014-09-30T07:32:55.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-10-05T19:03:48.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\AllUsersHubPage.xbf">
+      <PackagePath>AllUsersHubPage.xbf</PackagePath>
+      <Modified>2014-10-05T19:03:48.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\CustomDictionary.xbf">
+      <PackagePath>CustomDictionary.xbf</PackagePath>
+      <Modified>2014-10-05T19:03:48.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\ProjectTeamsHubPage.xbf">
+      <PackagePath>ProjectTeamsHubPage.xbf</PackagePath>
+      <Modified>2014-10-05T19:03:48.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\ProjectHubPage.xbf">
+      <PackagePath>ProjectHubPage.xbf</PackagePath>
+      <Modified>2014-10-05T19:03:48.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\Settings\CredentialSettingsFlyOut.xbf">
+      <PackagePath>Settings\CredentialSettingsFlyOut.xbf</PackagePath>
+      <Modified>2014-10-05T19:03:48.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\TeamHubPage.xbf">
+      <PackagePath>TeamHubPage.xbf</PackagePath>
+      <Modified>2014-10-05T19:03:48.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\UserDetailsHubPage.xbf">
+      <PackagePath>UserDetailsHubPage.xbf</PackagePath>
+      <Modified>2014-10-05T19:03:48.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\VSOTeams.Store.xr.xml">
+      <PackagePath>VSOTeams.Store.xr.xml</PackagePath>
+      <Modified>2014-10-05T19:03:48.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-10-05T19:03:49.290</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

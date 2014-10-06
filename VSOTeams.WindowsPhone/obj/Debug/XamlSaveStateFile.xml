@@ -1,0 +1,11 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\clemens\source\repos\vsoteams\vsoteams\vsoteams.windowsphone\obj\debug\intermediatexaml\vsoteams.windowsphone.exe" HashGuid="bec3312f-bbf0-6af6-00c4-4eba6e52326d" />
+    <ReferenceAssembly PathName="c:\users\clemens\source\repos\vsoteams\packages\mvvmlightlibs.4.3.31.1\lib\wpa81\galasoft.mvvmlight.dll" HashGuid="77fb4b2e-8ec5-88d5-d8e7-768d248c7bbc" />
+    <ReferenceAssembly PathName="c:\users\clemens\source\repos\vsoteams\packages\mvvmlightlibs.4.3.31.1\lib\wpa81\galasoft.mvvmlight.extras.dll" HashGuid="28bb2089-c7a4-73bb-7a72-1ea8b02698b0" />
+    <ReferenceAssembly PathName="c:\users\clemens\source\repos\vsoteams\packages\mvvmlightlibs.4.3.31.1\lib\wpa81\galasoft.mvvmlight.platform.dll" HashGuid="c769c228-b45f-ca29-24b7-7495dae962ed" />
+    <ReferenceAssembly PathName="c:\users\clemens\source\repos\vsoteams\packages\mvvmlightlibs.4.3.31.1\lib\wpa81\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
+    <ReferenceAssembly PathName="c:\users\clemens\source\repos\vsoteams\packages\windowsazure.messaging.managed.0.1.7.9\lib\wpa81\microsoft.windowsazure.messaging.managed.dll" HashGuid="a6c77c87-a1d1-2c9f-340a-0958f7d05449" />
+    <ReferenceAssembly PathName="c:\users\clemens\source\repos\vsoteams\packages\newtonsoft.json.6.0.3\lib\portable-net45+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="c79997c3-e7ec-c6d9-80a0-b6fbe9a32ff1" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

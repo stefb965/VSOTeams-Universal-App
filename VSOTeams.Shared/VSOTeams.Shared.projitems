@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="SharedProjectFile_SccProperties">
+    <SharedProjectFile_ProjectGuid>{94235a30-fc12-4335-be94-060e1e8c9de3}</SharedProjectFile_ProjectGuid>
+    <SharedProjectFile_SccProjectName>SAK</SharedProjectFile_SccProjectName>
+    <SharedProjectFile_SccAuxPath>SAK</SharedProjectFile_SccAuxPath>
+    <SharedProjectFile_SccLocalPath>SAK</SharedProjectFile_SccLocalPath>
+    <SharedProjectFile_SccProvider>SAK</SharedProjectFile_SccProvider>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>310cc185-694d-4214-ab6a-1f6f2705cc8c</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>VSOTeams</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Common\CredentialHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\FileHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Helpers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\JsonHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\NavigationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converter\BooleanConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converter\BooleanToVisibilityConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\AccountDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\DataService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\IdentityDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\IdentityImageDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\LicensesDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\TeamDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\ProjectDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\TeamMemberDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\VSOUsersDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IDataService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\INavigable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\INavigationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Account.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Collection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\DefaultTeam.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Identity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\IdentityImage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\License.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Modelbase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Profile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Project.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Team.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\TeamMember.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\VSOUser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\AllUsersViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ProjectTeamsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ProjectViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\TeamsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\UserViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ViewModelBaseState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ViewModelLocator.cs" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\MediumWhite.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\MediumGray.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sogeti.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\LightGray.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\MediumSogeti.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DarkGray.png" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\NavigationHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\RelayCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\ObservableDictionary.cs" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en-US\Resources.resw" />
+  </ItemGroup>
+</Project>
