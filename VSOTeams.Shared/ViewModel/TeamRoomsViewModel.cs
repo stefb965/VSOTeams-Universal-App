@@ -1,5 +1,4 @@
-﻿using GalaSoft.MvvmLight.Command;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
@@ -10,17 +9,16 @@ using VSOTeams.Model;
 
 namespace VSOTeams.ViewModel
 {
-    public class RoomsViewModel : ViewModelBaseState
+    public class TeamRoomsViewModel : ViewModelBaseState
     {
         private readonly INavigationService _navigationService;
         private readonly IDataService _dataService;
 
-        public RoomsViewModel(DataService dataService, INavigationService navigationService)
+        public TeamRoomsViewModel(IDataService dataService, INavigationService navigationService)
         {
             _dataService = dataService;
             _navigationService = navigationService;
         }
-
         public async override void Activate(object parameter)
         {
             await LoadData(false);
@@ -33,7 +31,7 @@ namespace VSOTeams.ViewModel
         private async Task LoadRooms(bool forceRefresh)
         {
             IsLoading = true;
-            LoadingText = "Loading Visual Studio Online users";
+            LoadingText = "Loading Visual Studio Online team rooms";
             try
             {
                 TeamRooms = await TeamRoomDataSource.GetAllTeamRoomsAsync(forceRefresh);
@@ -80,6 +78,5 @@ namespace VSOTeams.ViewModel
                 }
             }
         }
-
     }
 }

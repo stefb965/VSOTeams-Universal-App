@@ -51,6 +51,23 @@ namespace VSOTeams.ViewModel
                 return ServiceLocator.Current.GetInstance<AllUsersViewModel>();
             }
         }
+
+        public TeamRoomsViewModel TeamRoomsVM
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<TeamRoomsViewModel>();
+            }
+        }
+
+
+        public MessagesViewModel MessagesVM
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<MessagesViewModel>();
+            }
+        }
         static ViewModelLocator()
         {
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
@@ -63,6 +80,9 @@ namespace VSOTeams.ViewModel
             SimpleIoc.Default.Register<TeamsViewModel>();
             SimpleIoc.Default.Register<AllUsersViewModel>();
             SimpleIoc.Default.Register<UserViewModel>();
+
+            SimpleIoc.Default.Register<TeamRoomsViewModel>();
+            SimpleIoc.Default.Register<MessagesViewModel>();
         }
     }
 

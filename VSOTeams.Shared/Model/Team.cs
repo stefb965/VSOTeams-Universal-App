@@ -48,26 +48,26 @@ namespace VSOTeams.Model
             this.identityUrl = identityUrl;
         }
 
-        private RelayCommand _openTeamCommand;
-        public RelayCommand OpenTeamCommand
-        {
-            get
-            {
-                return _openTeamCommand ?? (_openTeamCommand = new RelayCommand(OpenThisTeam));
-            }
-        }
+        //private RelayCommand _openTeamCommand;
+        //public RelayCommand OpenTeamCommand
+        //{
+        //    get
+        //    {
+        //        return _openTeamCommand ?? (_openTeamCommand = new RelayCommand(OpenThisTeam));
+        //    }
+        //}
 
-        private void OpenThisTeam()
-        {
-            // He bah dit is niet handig om hier te doen
-            Frame rootFrame = Window.Current.Content as Frame;
+        //private void OpenThisTeam()
+        //{
+        //    // He bah dit is niet handig om hier te doen
+        //    Frame rootFrame = Window.Current.Content as Frame;
 
-            if (!rootFrame.Navigate(typeof(TeamHubPage), this))
-            {
-                throw new Exception("Failed to create initial page");
-            }
+        //    if (!rootFrame.Navigate(typeof(TeamHubPage), this))
+        //    {
+        //        throw new Exception("Failed to create initial page");
+        //    }
 
-        }
+        //}
 
     }
 }

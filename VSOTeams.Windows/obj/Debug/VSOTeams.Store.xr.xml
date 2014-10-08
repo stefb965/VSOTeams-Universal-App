@@ -25,6 +25,8 @@
     <RootPropertyPathName Name="SelectedProject" />
     <RootPropertyPathName Name="Projects" />
     <RootPropertyPathName Name="Count" />
+    <RootPropertyPathName Name="IsLoadingRooms" />
+    <RootPropertyPathName Name="GotoRoomsPageCommand" />
     <RootPropertyPathName Name="IsLoadingUsers" />
     <RootPropertyPathName Name="GotoAllUsersPageCommand" />
     <RootPropertyPathName Name="RefeshProjectsCommand" />
@@ -32,9 +34,11 @@
     <RootPropertyPathName Name="TeamName" />
     <RootPropertyPathName Name="SelectedTeamMember" />
     <RootPropertyPathName Name="TeamMembers" />
-    <RootPropertyPathName Name="DefaultViewModel" />
-    <RootPropertyPathName Name="NavigationHelper" />
-    <RootPropertyPathName Name="GoBackCommand" />
+    <RootPropertyPathName Name="MessagesVM" />
+    <RootPropertyPathName Name="TeamRoomsVM" />
+    <RootPropertyPathName Name="ImageLocation" />
+    <RootPropertyPathName Name="SelectedTeamRoom" />
+    <RootPropertyPathName Name="TeamRooms" />
     <RootPropertyPathName Name="UserVM" />
     <RootPropertyPathName Name="VisualStudioOnlineUser" />
     <RootPropertyPathName Name="teams" />
@@ -62,8 +66,6 @@
       <RootProperty Name="Source" />
       <RootProperty Name="Mode" />
       <RootProperty Name="Converter" />
-      <RootProperty Name="RelativeSource" />
-      <RootProperty Name="ElementName" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
@@ -96,7 +98,6 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Orientation" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
@@ -114,9 +115,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
       <RootProperty Name="Stretch" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />
@@ -142,8 +140,6 @@
       <RootProperty Name="DataContext" />
       <RootProperty Name="Background" />
       <RootProperty Name="ContentTemplate" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Header" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
       <RootProperty Name="SelectedItem" />
@@ -158,8 +154,6 @@
       <RootMethod Name="SetAutomationId" />
       <RootMethod Name="GetName" />
       <RootMethod Name="SetName" />
-      <RootMethod Name="GetItemType" />
-      <RootMethod Name="SetItemType" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
@@ -214,20 +208,13 @@
     </RootType>
     <RootType FullName="VSOTeams.Settings.CredentialSettingsFlyOut" />
     <RootType FullName="VSOTeams.TeamHubPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Page">
-      <RootProperty Name="DataContext" />
-      <RootProperty Name="Resources" />
-      <RootProperty Name="Content" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource" />
+    <RootType FullName="VSOTeams.TeamRoomHubPage" />
+    <RootType FullName="VSOTeams.TeamRoomsHubPage" />
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
-      <RootProperty Name="Stretch" />
       <RootProperty Name="ImageSource" />
       <RootProperty Name="AlignmentY" />
       <RootProperty Name="AlignmentX" />
     </RootType>
-    <RootType FullName="VSOTeams.TeamRoomHubPage" />
-    <RootType FullName="VSOTeams.TeamRoomsHubPage" />
     <RootType FullName="VSOTeams.UserDetailsHubPage" />
   </Roots.RootTypes>
 </Roots>

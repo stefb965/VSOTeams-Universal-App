@@ -71,6 +71,7 @@ namespace VSOTeams.ViewModel
             LoadingText = "Loading VSO users...";
             var AllVSOUsers = await VSOUsersDataSource.GetAllVSOUsersAsync(forceRefresh);
             IsLoadingUsers = true;
+            IsLoadingRooms = true;
             LoadingText = "";
         }
 
@@ -80,6 +81,14 @@ namespace VSOTeams.ViewModel
         {
             get { return _isLoadingUsers; }
             set { Set(IsLoadingUsersPropertyName, ref _isLoadingUsers, value); }
+        }
+
+        public const string IsLoadingRoomsPropertyName = "IsLoadingRooms";
+        private bool _isLoadingRooms;
+        public bool IsLoadingRooms
+        {
+            get { return _isLoadingRooms; }
+            set { Set(IsLoadingRoomsPropertyName, ref _isLoadingRooms, value); }
         }
 
         private const string ProjectsPropertyName = "Projects";
@@ -120,6 +129,22 @@ namespace VSOTeams.ViewModel
         private async void RefeshProjectsAsync()
         {
             await LoadProjects(true);
+        }
+
+        //
+
+        private RelayCommand _gotoRoomsPage;
+        public RelayCommand GotoRoomsPageCommand
+        {
+            get
+            {
+                return _gotoRoomsPage ?? (_gotoRoomsPage = new RelayCommand(GotoRoomsPage));
+            }
+        }
+
+        private void GotoRoomsPage()
+        {
+            _navigationService.Navigate(typeof(TeamRoomsHubPage));
         }
 
         private RelayCommand _gotoAllUsersPage;

@@ -87,6 +87,8 @@ C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\Proje
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\ProjectHubPage.xbf
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\Settings\CredentialSettingsFlyOut.xbf
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\TeamHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\TeamRoomHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\TeamRoomsHubPage.xbf
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\UserDetailsHubPage.xbf
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\VSOTeams.Store.xr.xml
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\VSOTeams.Store.exe
@@ -126,6 +128,10 @@ C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Setti
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Settings\CredentialSettingsFlyOut.g.cs
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamHubPage.g.i.cs
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamHubPage.g.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomHubPage.g.i.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomHubPage.g.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomsHubPage.g.i.cs
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomsHubPage.g.cs
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\UserDetailsHubPage.g.i.cs
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\UserDetailsHubPage.g.cs
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\XamlTypeInfo.g.cs
@@ -136,6 +142,8 @@ C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Proje
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectHubPage.xaml
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Settings\CredentialSettingsFlyOut.xaml
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamHubPage.xaml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomHubPage.xaml
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomsHubPage.xaml
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\UserDetailsHubPage.xaml
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\App.xbf
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\AllUsersHubPage.xbf
@@ -144,6 +152,8 @@ C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Proje
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectHubPage.xbf
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Settings\CredentialSettingsFlyOut.xbf
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomHubPage.xbf
+C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomsHubPage.xbf
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\UserDetailsHubPage.xbf
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\XamlSaveStateFile.xml
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\VSOTeams.Store.exe
@@ -166,13 +176,3 @@ C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Micro
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Microsoft.WindowsAzure.Messaging.Managed.pri.xml
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectArchitectures.txt
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\VSOTeams.Windows.csprojResolveAssemblyReference.cache
-C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomHubPage.g.i.cs
-C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomHubPage.g.cs
-C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomsHubPage.g.i.cs
-C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomsHubPage.g.cs
-C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomHubPage.xaml
-C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomsHubPage.xaml
-C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomHubPage.xbf
-C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\TeamRoomsHubPage.xbf
-C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\TeamRoomHubPage.xbf
-C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\TeamRoomsHubPage.xbf

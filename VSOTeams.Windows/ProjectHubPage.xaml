@@ -76,8 +76,12 @@
                             <AppBarButton Icon="People" Grid.Row="1" Grid.Column="0" Height="80" Width="86" x:Name="allVSOUsers" Label=""  Command="{Binding GotoAllUsersPageCommand, Mode=OneWay}" Visibility="{Binding IsLoadingUsers, Converter={StaticResource BooleanToVisibilityConverter}}"/>
                             <TextBlock Grid.Row="1"  Grid.Column="1" Margin="0,10,0,0" Text="All VSO Users" Style="{StaticResource SubheaderTextBlockStyle}" Visibility="{Binding IsLoadingUsers, Converter={StaticResource BooleanToVisibilityConverter}}"/>
 
-                            <TextBlock Grid.Row="2" Grid.Column="0"  Text="{Binding Projects.Count}" Style="{StaticResource SubheaderTextBlockStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                            <TextBlock Grid.Row="2" Grid.Column="1"  Text="Projects"  Style="{StaticResource SubheaderTextBlockStyle}"   VerticalAlignment="Center"/>
+                            <AppBarButton Icon="Comment" Grid.Row="2" Grid.Column="0" Height="80" Width="86" x:Name="allRooms" Label=""  Command="{Binding GotoRoomsPageCommand, Mode=OneWay}" Visibility="{Binding IsLoadingRooms, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                            <TextBlock Grid.Row="2"  Grid.Column="1" Margin="0,10,0,0" Text="Teamrooms" Style="{StaticResource SubheaderTextBlockStyle}" Visibility="{Binding IsLoadingRooms, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+
+                            
+                            <TextBlock Grid.Row="3" Grid.Column="0"  Text="{Binding Projects.Count}" Style="{StaticResource SubheaderTextBlockStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock Grid.Row="3" Grid.Column="1"  Text="Projects"  Style="{StaticResource SubheaderTextBlockStyle}"   VerticalAlignment="Center"/>
                         </Grid>
 
                         <StackPanel Grid.Row="2">

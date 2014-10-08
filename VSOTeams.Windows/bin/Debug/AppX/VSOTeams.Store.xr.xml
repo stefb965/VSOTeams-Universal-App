@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Roots >
+<Roots xmlns="clr-namespace:Microsoft.Xaml.Tools.XamlCompiler.RootLog;assembly=Microsoft.Windows.UI.Xaml.81.Build.Tasks">
   <Roots.Interfaces>
     <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
   </Roots.Interfaces>
@@ -25,6 +25,8 @@
     <RootPropertyPathName Name="SelectedProject" />
     <RootPropertyPathName Name="Projects" />
     <RootPropertyPathName Name="Count" />
+    <RootPropertyPathName Name="IsLoadingRooms" />
+    <RootPropertyPathName Name="GotoRoomsPageCommand" />
     <RootPropertyPathName Name="IsLoadingUsers" />
     <RootPropertyPathName Name="GotoAllUsersPageCommand" />
     <RootPropertyPathName Name="RefeshProjectsCommand" />
@@ -32,6 +34,11 @@
     <RootPropertyPathName Name="TeamName" />
     <RootPropertyPathName Name="SelectedTeamMember" />
     <RootPropertyPathName Name="TeamMembers" />
+    <RootPropertyPathName Name="MessagesVM" />
+    <RootPropertyPathName Name="TeamRoomsVM" />
+    <RootPropertyPathName Name="ImageLocation" />
+    <RootPropertyPathName Name="SelectedTeamRoom" />
+    <RootPropertyPathName Name="TeamRooms" />
     <RootPropertyPathName Name="UserVM" />
     <RootPropertyPathName Name="VisualStudioOnlineUser" />
     <RootPropertyPathName Name="teams" />
@@ -201,6 +208,8 @@
     </RootType>
     <RootType FullName="VSOTeams.Settings.CredentialSettingsFlyOut" />
     <RootType FullName="VSOTeams.TeamHubPage" />
+    <RootType FullName="VSOTeams.TeamRoomHubPage" />
+    <RootType FullName="VSOTeams.TeamRoomsHubPage" />
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
       <RootProperty Name="AlignmentY" />

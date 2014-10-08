@@ -12,9 +12,19 @@ namespace VSOTeams.Model
         public string name { get; set; }
         public string description { get; set; }
         public string lastActivity { get; set; }
-        public DateTime lastActivityDT { get; set; }
+        public CreatedBy createdBy { get; set; }
         public string createdDate { get; set; }
-        public ImageSource ImageUri { get; set; }
+        public bool hasAdminPermissions { get; set; }
+        public bool hasReadWritePermissions { get; set; }
+        public string ImageLocation { get; internal set; }
+    }
+
+        public class CreatedBy
+    {
+        public string id { get; set; }
+        public string displayName { get; set; }
+        public string url { get; set; }
+        public string imageUrl { get; set; }
     }
 
     public class TeamRooms
