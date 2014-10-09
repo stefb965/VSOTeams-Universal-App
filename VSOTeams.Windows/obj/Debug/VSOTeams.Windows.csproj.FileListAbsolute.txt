@@ -175,4 +175,3 @@ C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\GalaS
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Microsoft.Practices.ServiceLocation.pri.xml
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\Microsoft.WindowsAzure.Messaging.Managed.pri.xml
 C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\ProjectArchitectures.txt
-C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\obj\Debug\VSOTeams.Windows.csprojResolveAssemblyReference.cache

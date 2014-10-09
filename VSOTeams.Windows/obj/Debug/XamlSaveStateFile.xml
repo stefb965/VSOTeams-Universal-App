@@ -1,6 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\clemens\source\repos\vsoteams\vsoteams\vsoteams.windows\obj\debug\intermediatexaml\vsoteams.store.exe" HashGuid="6171b3b8-3413-0088-ea94-ac8f49fcce36" />
+    <LocalAssembly PathName="c:\users\clemens\source\repos\vsoteams\vsoteams\vsoteams.windows\obj\debug\intermediatexaml\vsoteams.store.exe" HashGuid="38574593-ba33-7222-a37b-507a673cbb4a" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
     <ReferenceAssembly PathName="c:\users\clemens\source\repos\vsoteams\packages\mvvmlightlibs.4.3.31.1\lib\netcore45\galasoft.mvvmlight.extras.win8.dll" HashGuid="f1644a38-c628-2fde-5283-4e777988788a" />

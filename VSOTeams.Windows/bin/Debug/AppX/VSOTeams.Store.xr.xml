@@ -35,6 +35,15 @@
     <RootPropertyPathName Name="SelectedTeamMember" />
     <RootPropertyPathName Name="TeamMembers" />
     <RootPropertyPathName Name="MessagesVM" />
+    <RootPropertyPathName Name="TeamRoomName" />
+    <RootPropertyPathName Name="TeamRoomMessages" />
+    <RootPropertyPathName Name="Content" />
+    <RootPropertyPathName Name="postedTime" />
+    <RootPropertyPathName Name="PostedByImageLocation" />
+    <RootPropertyPathName Name="Title" />
+    <RootPropertyPathName Name="RefeshMessagesCommand" />
+    <RootPropertyPathName Name="PostMessageCommand" />
+    <RootPropertyPathName Name="MessageText" />
     <RootPropertyPathName Name="TeamRoomsVM" />
     <RootPropertyPathName Name="ImageLocation" />
     <RootPropertyPathName Name="SelectedTeamRoom" />
@@ -92,12 +101,15 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="Background" />
       <RootProperty Name="Child" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
@@ -111,6 +123,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="MaxHeight" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
@@ -199,6 +212,11 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="FontFamily" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
       <RootProperty Name="Width" />
@@ -208,6 +226,23 @@
     </RootType>
     <RootType FullName="VSOTeams.Settings.CredentialSettingsFlyOut" />
     <RootType FullName="VSOTeams.TeamHubPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="TabIndex" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="IsSwipeEnabled" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="ItemContainerStyle" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+    </RootType>
     <RootType FullName="VSOTeams.TeamRoomHubPage" />
     <RootType FullName="VSOTeams.TeamRoomsHubPage" />
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">

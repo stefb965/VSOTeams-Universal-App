@@ -87,8 +87,19 @@ namespace VSOTeams.Model
                     }
                 }
 
+                public class GitEvent  : Notification
+                {
 
-                public class BuildCompletedData
+
+                    public override string ToString()
+                {
+                    var result = title;
+                    return result;
+                }
+            }
+
+
+            public class BuildCompletedData
                 {
                     public class BuildDefinition
                     {

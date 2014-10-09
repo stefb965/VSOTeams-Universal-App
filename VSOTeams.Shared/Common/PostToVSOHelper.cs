@@ -27,9 +27,6 @@ namespace VSOTeams.Common
                    Encoding.UTF8,
                    "application/json");
 
-            string uriString = string.Format("https://{0}.visualstudio.com", _credentials.Account);
-            uriString = uriString + requestUri;
-
             using (HttpClient client = new HttpClient())
             {
                 client.DefaultRequestHeaders.Accept.Add(
@@ -41,7 +38,7 @@ namespace VSOTeams.Common
                             string.Format("{0}:{1}", username, password))));
 
                 HttpResponseMessage response = await client.PostAsync
-                    (uriString, content);
+                    (requestUri, content);
 
                 response.EnsureSuccessStatusCode();
                 var test = await response.Content.ReadAsStringAsync();

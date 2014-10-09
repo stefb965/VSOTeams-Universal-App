@@ -153,6 +153,11 @@
     <Content Include="Assets\BernardSpitPolarBear_EN-US13003115552_1366x768.jpg" />
     <Content Include="Assets\bg.png" />
     <Content Include="Assets\bg2.png" />
+    <Content Include="Assets\buildcompletedevent.png" />
+    <Content Include="Assets\buildcompletedevent1.png" />
+    <Content Include="Assets\checkinevent.png" />
+    <Content Include="Assets\checkinevent1.png" />
+    <Content Include="Assets\Git.png" />
     <Content Include="Assets\IC719387.gif" />
     <Content Include="Assets\Logo.scale-100.png" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
@@ -160,6 +165,8 @@
     <Content Include="Assets\StoreLogo.scale-100.png" />
     <Content Include="Assets\Team_32xLG.png" />
     <Content Include="Assets\WideLogo.scale-100.png" />
+    <Content Include="Assets\workitemchangedevent.PNG" />
+    <Content Include="Assets\workitemchangedevent1.png" />
     <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <ItemGroup>

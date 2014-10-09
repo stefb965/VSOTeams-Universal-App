@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GalaSoft.MvvmLight.Command;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
@@ -78,5 +79,20 @@ namespace VSOTeams.ViewModel
                 }
             }
         }
+
+        private RelayCommand _goToMainPage;
+        public RelayCommand GoToMainPageCommand
+        {
+            get
+            {
+                return _goToMainPage ?? (_goToMainPage = new RelayCommand(GoToMainPage));
+            }
+        }
+
+        private void GoToMainPage()
+        {
+            _navigationService.Navigate(typeof(ProjectHubPage));
+        }
+
     }
 }

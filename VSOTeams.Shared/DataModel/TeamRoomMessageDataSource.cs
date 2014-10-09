@@ -48,7 +48,8 @@ namespace VSOTeams.DataModel
             {
                 var credentials = CredentialHelper.GetCredential();
                 Helpers.CreateHttpClient(ref _httpClient);
-                string uriString = String.Format("/DefaultCollection/_apis/Chat/rooms/{0}/messages", tm.id);
+                string uriString = String.Format("https://{0}.visualstudio.com/DefaultCollection/_apis/Chat/rooms/{1}/messages", credentials.Account, tm.id);
+                
 
                 Uri resourceAddress = new Uri(uriString);
 
@@ -60,31 +61,13 @@ namespace VSOTeams.DataModel
 
                 IEnumerable<TeamRoomMessage> messages = teamroommessagebaselist.value;
 
-                var BuildCompletedEventImage = new Image();
-                BuildCompletedEventImage.Source = await MessageIconSource("buildcompletedevent.png");
-
-                var BuildCompletedEventImageBig = new Image();
-                BuildCompletedEventImageBig.Source = await MessageIconSource("buildcompletedevent1.png");
-
-                var workitemchangedeventImage = new Image();
-                workitemchangedeventImage.Source = await MessageIconSource("workitemchangedevent.png");
-
-                var workitemchangedeventImageBig = new Image();
-                workitemchangedeventImageBig.Source = await MessageIconSource("workitemchangedevent1.png");
-
-                var checkineventImage = new Image();
-                checkineventImage.Source = await MessageIconSource("checkinevent.png");
-
-                var checkineventImageBig = new Image();
-                checkineventImageBig.Source = await MessageIconSource("checkinevent1.png");
-
                 foreach (var item in messages)
                 {
                     SimpleRoomMessage sm = new SimpleRoomMessage();
                     sm.message = item;
                     sm.Content = item.content.ToString();
-
-                    sm.PostedByDisplayName = item.postedBy.displayName + ".png";
+                    sm.postedTime = item.postedTime;
+                    sm.PostedByDisplayName = item.postedBy.displayName;
                     sm.PostedByImageUrl = item.postedBy.imageUrl;
 
                     if (item.content is TeamRoomMessage.Content.System)
@@ -94,18 +77,17 @@ namespace VSOTeams.DataModel
 
                     if (item.content is TeamRoomMessage.Content.Normal)
                     {
-                        ImageSource imgResult = await MessageIconSource(sm.PostedByImageUrl);
-
-                        sm.PostedByImageSource = imgResult;
-                        sm.MessageTypeURI = imgResult;
-                        sm.MessageTypeURIBig = imgResult;
+                        sm.PostedByImageLocation = await MessageIconSource(sm.PostedByDisplayName + ".png", sm.PostedByImageUrl); 
                         SimpleRoomMessages.Add(sm);
                     }
                     if (item.content is TeamRoomMessage.Content.Notification.BuildCompletedEvent)
                     {
                         var content = (TeamRoomMessage.Content.Notification.BuildCompletedEvent)item.content;
-                        sm.MessageTypeURI = BuildCompletedEventImage.Source;
-                        sm.MessageTypeURIBig = BuildCompletedEventImageBig.Source;
+                        StorageFolder InstallationFolder = Windows.ApplicationModel.Package.Current.InstalledLocation;
+                        StorageFile file = await InstallationFolder.GetFileAsync(@"assets\buildcompletedevent1.png");
+
+                        sm.PostedByImageLocation = file.Path;
+
                         sm.Url = content.url;
                         SimpleRoomMessages.Add(sm);
                     }
@@ -113,8 +95,11 @@ namespace VSOTeams.DataModel
                     if (item.content is TeamRoomMessage.Content.Notification.WorkItemChangedEvent)
                     {
                         var content = (TeamRoomMessage.Content.Notification.WorkItemChangedEvent)item.content;
-                        sm.MessageTypeURI = workitemchangedeventImage.Source;
-                        sm.MessageTypeURIBig = workitemchangedeventImageBig.Source;
+                        StorageFolder InstallationFolder = Windows.ApplicationModel.Package.Current.InstalledLocation;
+                        StorageFile file = await InstallationFolder.GetFileAsync(@"assets\workitemchangedevent1.png");
+
+                        sm.PostedByImageLocation = file.Path;
+                        sm.Content = "Work Item Changed by " + sm.PostedByDisplayName + " " + sm.Content;
                         sm.Url = content.url;
                         SimpleRoomMessages.Add(sm);
                     }
@@ -122,12 +107,29 @@ namespace VSOTeams.DataModel
                     if (item.content is TeamRoomMessage.Content.Notification.CheckinEvent)
                     {
                         var content = (TeamRoomMessage.Content.Notification.CheckinEvent)item.content;
-                        sm.MessageTypeURI = checkineventImage.Source;
-                        sm.MessageTypeURIBig = checkineventImageBig.Source;
+                        StorageFolder InstallationFolder = Windows.ApplicationModel.Package.Current.InstalledLocation;
+                        StorageFile file = await InstallationFolder.GetFileAsync(@"assets\checkinevent1.png");
+
+                        sm.PostedByImageLocation = file.Path; 
                         sm.Url = content.url;
                         SimpleRoomMessages.Add(sm);
                     }
-                }
+                    if (item.content is TeamRoomMessage.Content.Notification)
+                    {
+                        
+                        var content = (TeamRoomMessage.Content.Notification)item.content;
+                        if(content.type == "GitPullRequestEvent")
+                        {
+                            StorageFolder InstallationFolder = Windows.ApplicationModel.Package.Current.InstalledLocation;
+                            StorageFile file = await InstallationFolder.GetFileAsync(@"assets\Git.png");
+
+                            sm.PostedByImageLocation = file.Path;
+                            sm.Url = content.url;
+                            sm.Content = "GIT Pull Request by " + sm.PostedByDisplayName + " " + sm.Content;
+                            SimpleRoomMessages.Add(sm);
+                        }
+                    }
+              }
             }
             catch (Exception ex)
             {
@@ -135,29 +137,48 @@ namespace VSOTeams.DataModel
             }
         }
 
-        internal async static Task PostMessage(string postMessageText)
+        internal async static Task PostMessage(string postMessageText, TeamRoom tm)
         {
-            await _teamRoomMessagesDataSource.PostMessageAsync(postMessageText);
+            await _teamRoomMessagesDataSource.PostMessageAsync(postMessageText, tm);
         }
 
-        private async Task PostMessageAsync(string postMessageText)
+        private async Task PostMessageAsync(string postMessageText, TeamRoom tm)
         {
-            string uriString = String.Format("/DefaultCollection/_apis/Chat/rooms/{0}/messages", _currentRoom.id);
+            var credentials = CredentialHelper.GetCredential();
+            Helpers.CreateHttpClient(ref _httpClient);
+            string uriString = String.Format("https://{0}.visualstudio.com/DefaultCollection/_apis/Chat/rooms/{1}/messages", credentials.Account, tm.id);
 
             var succes = await PostToVSOHelper.PostToVSO(uriString, postMessageText);
+            if(succes == true)
+            {
+                await GetTeamRoomMessagesDataAsync(true, tm);
+            }
         }
 
 
-        private async Task<BitmapImage> MessageIconSource(string icon)
+        private async Task<string> MessageIconSource(string icon, string downloadLocation)
         {
+            StorageFile file = null;
             try
             {
-                var file = await ApplicationData.Current.LocalFolder.GetFileAsync(icon);
-                var fileStream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
-                var img = new BitmapImage();
-                img.SetSource(fileStream);
+                if( await FileHelper.CheckIfFileExsistsInLocalFolder(icon) != true)
+                {
+                    var _destinationFolder = ApplicationData.Current.LocalFolder;
 
-                return img;
+                    var pictureFilename = icon;
+                    file = await _destinationFolder.CreateFileAsync(pictureFilename, CreationCollisionOption.ReplaceExisting);
+
+                    Helpers.CreateHttpClient(ref _httpClient);
+                    HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, new Uri(downloadLocation));
+                    HttpResponseMessage response = await _httpClient.SendRequestAsync(request, HttpCompletionOption.ResponseHeadersRead);
+                    var stream = await response.Content.ReadAsBufferAsync();
+                    await Windows.Storage.FileIO.WriteBufferAsync(file, stream);
+                }
+                else
+                {
+                    file = await ApplicationData.Current.LocalFolder.GetFileAsync(icon);
+                }
+                return file.Path;
             }
             catch (Exception)
             {

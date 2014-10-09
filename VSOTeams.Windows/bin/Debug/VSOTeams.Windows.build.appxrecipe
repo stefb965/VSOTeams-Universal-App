@@ -49,6 +49,21 @@
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\bg2.png">
       <PackagePath>Assets\bg2.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\buildcompletedevent.png">
+      <PackagePath>Assets\buildcompletedevent.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\buildcompletedevent1.png">
+      <PackagePath>Assets\buildcompletedevent1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\checkinevent.png">
+      <PackagePath>Assets\checkinevent.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\checkinevent1.png">
+      <PackagePath>Assets\checkinevent1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\Git.png">
+      <PackagePath>Assets\Git.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -70,6 +85,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\WideLogo.scale-100.png">
       <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\workitemchangedevent.PNG">
+      <PackagePath>Assets\workitemchangedevent.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\workitemchangedevent1.png">
+      <PackagePath>Assets\workitemchangedevent1.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Shared\Assets\MediumWhite.png">
       <PackagePath>Assets\MediumWhite.png</PackagePath>

@@ -37,9 +37,14 @@
             <Hub.Header>
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="80"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
+                     <Button  x:Name="backButton" Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        Margin="0,0,39,0" 
+                        VerticalAlignment="Top"
+                        Command="{Binding GoToMainPageCommand, Mode=OneWay}" 
+                        Visibility="Visible"/>
                     <TextBlock x:Name="pageTitle" Text="Team rooms" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         VerticalAlignment="Top" IsHitTestVisible="false" TextWrapping="NoWrap" Foreground="White" />
                 </Grid>
@@ -69,15 +74,6 @@
                                 <ColumnDefinition Width="95"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-
-                            <!--<AppBarButton Icon="Refresh" Grid.Row="0" Grid.Column="0" Height="80" Width="86" x:Name="refresh" Label="" Command="{Binding RefeshProjectsCommand, Mode=OneWay}"/>
-                            <TextBlock Grid.Row="0"  Grid.Column="1" Margin="0,10,0,0" Text="Reload Projects" Style="{StaticResource SubheaderTextBlockStyle}"  />
-
-                            <AppBarButton Icon="People" Grid.Row="1" Grid.Column="0" Height="80" Width="86" x:Name="allVSOUsers" Label=""  Command="{Binding GotoAllUsersPageCommand, Mode=OneWay}" Visibility="{Binding IsLoadingUsers, Converter={StaticResource BooleanToVisibilityConverter}}"/>
-                            <TextBlock Grid.Row="1"  Grid.Column="1" Margin="0,10,0,0" Text="All VSO Users" Style="{StaticResource SubheaderTextBlockStyle}" Visibility="{Binding IsLoadingUsers, Converter={StaticResource BooleanToVisibilityConverter}}"/>
-
-                            <AppBarButton Icon="Comment" Grid.Row="2" Grid.Column="0" Height="80" Width="86" x:Name="allRooms" Label=""  Command="{Binding GotoRoomsPageCommand, Mode=OneWay}" Visibility="{Binding IsLoadingRooms, Converter={StaticResource BooleanToVisibilityConverter}}"/>
-                            <TextBlock Grid.Row="2"  Grid.Column="1" Margin="0,10,0,0" Text="Teamrooms" Style="{StaticResource SubheaderTextBlockStyle}" Visibility="{Binding IsLoadingRooms, Converter={StaticResource BooleanToVisibilityConverter}}"/>-->
 
                             <TextBlock Grid.Row="3" Grid.Column="0"  Text="{Binding TeamRooms.Count}" Style="{StaticResource SubheaderTextBlockStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             <TextBlock Grid.Row="3" Grid.Column="1"  Text="Rooms"  Style="{StaticResource SubheaderTextBlockStyle}"   VerticalAlignment="Center"/>

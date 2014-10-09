@@ -11,7 +11,6 @@ namespace VSOTeams.ViewModel
     public class ViewModelBaseState : ViewModelBase, INavigable
     {
 
-
         public virtual void Activate(object parameter)
         {
 
@@ -48,8 +47,6 @@ namespace VSOTeams.ViewModel
             get { return new BitmapImage(new Uri("ms-appx:/Assets/bg.png")); }
             set { Set(ProjectImagePropertyName, ref _projectImage, value); }
         }
-
-
 
     }
 }

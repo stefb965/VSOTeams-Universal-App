@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-08T15:44:13.239</Modified>
+      <Modified>2014-10-09T08:56:21.397</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\VSOTeams.Store.exe">
       <PackagePath>VSOTeams.Store.exe</PackagePath>
-      <Modified>2014-10-08T16:08:36.058</Modified>
+      <Modified>2014-10-09T09:16:53.685</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
@@ -68,6 +68,26 @@
       <PackagePath>Assets\bg2.png</PackagePath>
       <Modified>2014-10-01T18:45:02.703</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\buildcompletedevent.png">
+      <PackagePath>Assets\buildcompletedevent.png</PackagePath>
+      <Modified>2014-10-06T07:09:13.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\buildcompletedevent1.png">
+      <PackagePath>Assets\buildcompletedevent1.png</PackagePath>
+      <Modified>2014-10-06T07:09:13.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\checkinevent.png">
+      <PackagePath>Assets\checkinevent.png</PackagePath>
+      <Modified>2014-10-06T07:09:13.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\checkinevent1.png">
+      <PackagePath>Assets\checkinevent1.png</PackagePath>
+      <Modified>2014-10-06T07:09:13.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\Git.png">
+      <PackagePath>Assets\Git.png</PackagePath>
+      <Modified>2014-10-09T08:48:27.611</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -95,6 +115,14 @@
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\WideLogo.scale-100.png">
       <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
       <Modified>2014-09-30T07:32:55.507</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\workitemchangedevent.PNG">
+      <PackagePath>Assets\workitemchangedevent.PNG</PackagePath>
+      <Modified>2014-10-06T07:09:13.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\Assets\workitemchangedevent1.png">
+      <PackagePath>Assets\workitemchangedevent1.png</PackagePath>
+      <Modified>2014-10-06T07:09:13.160</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Shared\Assets\MediumWhite.png">
       <PackagePath>Assets\MediumWhite.png</PackagePath>
@@ -126,51 +154,51 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-10-08T15:23:41.014</Modified>
+      <Modified>2014-10-09T08:56:20.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\AllUsersHubPage.xbf">
       <PackagePath>AllUsersHubPage.xbf</PackagePath>
-      <Modified>2014-10-08T15:23:41.017</Modified>
+      <Modified>2014-10-09T08:56:20.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\CustomDictionary.xbf">
       <PackagePath>CustomDictionary.xbf</PackagePath>
-      <Modified>2014-10-08T15:23:41.017</Modified>
+      <Modified>2014-10-09T08:56:20.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\ProjectTeamsHubPage.xbf">
       <PackagePath>ProjectTeamsHubPage.xbf</PackagePath>
-      <Modified>2014-10-08T15:23:41.021</Modified>
+      <Modified>2014-10-09T08:56:20.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\ProjectHubPage.xbf">
       <PackagePath>ProjectHubPage.xbf</PackagePath>
-      <Modified>2014-10-08T15:23:41.024</Modified>
+      <Modified>2014-10-09T08:56:20.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\Settings\CredentialSettingsFlyOut.xbf">
       <PackagePath>Settings\CredentialSettingsFlyOut.xbf</PackagePath>
-      <Modified>2014-10-08T15:23:41.024</Modified>
+      <Modified>2014-10-09T08:56:20.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\TeamHubPage.xbf">
       <PackagePath>TeamHubPage.xbf</PackagePath>
-      <Modified>2014-10-08T15:23:41.027</Modified>
+      <Modified>2014-10-09T08:56:20.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\TeamRoomHubPage.xbf">
       <PackagePath>TeamRoomHubPage.xbf</PackagePath>
-      <Modified>2014-10-08T15:23:41.027</Modified>
+      <Modified>2014-10-09T09:16:53.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\TeamRoomsHubPage.xbf">
       <PackagePath>TeamRoomsHubPage.xbf</PackagePath>
-      <Modified>2014-10-08T16:05:09.135</Modified>
+      <Modified>2014-10-09T09:16:53.409</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\UserDetailsHubPage.xbf">
       <PackagePath>UserDetailsHubPage.xbf</PackagePath>
-      <Modified>2014-10-08T15:23:41.031</Modified>
+      <Modified>2014-10-09T08:56:20.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\VSOTeams.Store.xr.xml">
       <PackagePath>VSOTeams.Store.xr.xml</PackagePath>
-      <Modified>2014-10-08T16:05:09.116</Modified>
+      <Modified>2014-10-09T09:08:58.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Clemens\Source\Repos\VSOTeams\VSOTeams\VSOTeams.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-10-08T15:44:12.864</Modified>
+      <Modified>2014-10-09T08:56:21.193</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

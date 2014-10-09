@@ -13,7 +13,7 @@ namespace VSOTeams.ViewModel
     {
         private readonly INavigationService _navigationService;
         private readonly IDataService _dataService;
-       // private VSOUser _currentVSOUser;
+        
 
         public UserViewModel(IDataService dataService, INavigationService navigationService)
         {

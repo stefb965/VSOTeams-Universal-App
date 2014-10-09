@@ -25,6 +25,8 @@ namespace VSOTeams.ViewModel
         public async override void Activate(object parameter)
         {
             _currentTeamRoom = (TeamRoom)parameter;
+            TeamRoomName = _currentTeamRoom.name;
+
             await LoadData(false);
         }
 
@@ -63,6 +65,24 @@ namespace VSOTeams.ViewModel
             }
 
         }
+
+     
+        private const string TeamRoomNamePropertyName = "TeamRoomName";
+        private string _teamRoomName = "";
+        public string TeamRoomName
+        {
+            get { return _teamRoomName ; }
+            set { Set(TeamRoomNamePropertyName, ref _teamRoomName, value); }
+        }
+
+        private const string MessageTextPropertyName = "MessageText";
+        private string _messageText = "";
+        public string MessageText
+        {
+            get { return _messageText; }
+            set { Set(MessageTextPropertyName, ref _messageText, value); }
+        }
+
 
         private const string TeamRoomMessagesPropertyName = "TeamRoomMessages";
         private ObservableCollection<SimpleRoomMessage> _teamRoomMessages;
@@ -106,7 +126,27 @@ namespace VSOTeams.ViewModel
 
         private async void PostMessageAsync()
         {
-            await TeamRoomMessageDataSource.PostMessage(PostMessageText);
+            if(MessageText != string.Empty)
+            {
+                await TeamRoomMessageDataSource.PostMessage(MessageText, _currentTeamRoom);
+                MessageText = "";
+            }
         }
+
+        private RelayCommand _goToMainPage;
+        public RelayCommand GoToMainPageCommand
+        {
+            get
+            {
+                return _goToMainPage ?? (_goToMainPage = new RelayCommand(GoToMainPage));
+            }
+        }
+
+        private void GoToMainPage()
+        {
+            TeamRoomMessages.Clear();
+            _navigationService.Navigate(typeof(ProjectHubPage));
+        }
+
     }
 }

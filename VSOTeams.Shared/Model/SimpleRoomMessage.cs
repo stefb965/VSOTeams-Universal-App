@@ -14,10 +14,11 @@ namespace VSOTeams.Model
         public DateTime postedTime { get; set; }
         public string Url { get; set; }
 
-        public TeamRoomMessage message { get; set; }
+
+public TeamRoomMessage message { get; set; }
 
         public string PostedByImageUrl { get; set; }
 
-        public ImageSource PostedByImageSource { get; set; }
+        public string PostedByImageLocation { get; set; }
     }
 }

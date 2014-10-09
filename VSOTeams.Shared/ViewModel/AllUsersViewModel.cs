@@ -117,7 +117,9 @@ namespace VSOTeams.ViewModel
 
         private void GoToMainPage()
         {
-            _navigationService.Navigate(typeof(ProjectHubPage));  
+            _navigationService.Navigate(typeof(ProjectHubPage));
         }
+
+
     }
 }
